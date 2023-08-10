@@ -1,0 +1,4 @@
+.conteiner_ItemDetailContainer{
+    display: flex;
+    justify-content: space-around;
+}
