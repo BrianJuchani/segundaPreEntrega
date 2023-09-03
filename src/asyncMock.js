@@ -35,9 +35,10 @@ export const getProductos = ()=>{
         setTimeout(()=>{
             resolve(productos)
         },500)
+        //sirve para emular retraso en la red     
     })
 }
-export const getProductById= ( productoId)=>{
+export const getProductById= (productoId)=>{
     return new Promise((resolve)=>{
         setTimeout(()=>{
             resolve(productos.find(prod=> prod.id === productoId))

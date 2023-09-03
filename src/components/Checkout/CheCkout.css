@@ -1,0 +1,21 @@
+.fondo-check{
+    background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-gym-is-reflected-in-an-odd-light-picture-image_2773779.jpg);
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.fondo-fin{
+    background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-gym-is-reflected-in-an-odd-light-picture-image_2773779.jpg);
+     color: antiquewhite;
+     display:  flex;
+     justify-content:  space-around;
+
+     padding-top: 385px;
+     padding-bottom: 384px;;
+
+}
+.titulo-check{
+    color: aliceblue;
+
+}

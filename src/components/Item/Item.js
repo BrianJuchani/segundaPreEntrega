@@ -3,10 +3,11 @@ import './Item.css'
 import { Link } from "react-router-dom"
 
 
+
 const Item=({id,name,img,price,stock})=>{
     return(
         <span >
-        <div className="product card img">
+        <div className="product card img" >
             <img src={img} className=" card-img-top" alt={name}/>
             <div className="div_Item card-body">
                 <h5 className="card-title">{name}</h5>
